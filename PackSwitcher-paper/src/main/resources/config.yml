@@ -1,0 +1,18 @@
+# If running on bungeecord, this should be set to false. If this is false you must set a bungee ip and port to fetch packs from.
+enableWeb: true
+webPort: 9465
+# If you don't know what you're doing, keep this as 0.0.0.0
+webIp: 0.0.0.0
+
+# Only edit this if you are running a bungeecord network
+# If you have a bungeecord network you should set this up so that you only need to install resource packs in one location.
+bungee:
+  enabled: false
+  ip: bungeecordIp # This should be the ip of your bungeecord server
+  port: 9465 # This should be the port set in the packswitcher config on your bungee server
+
+# If you are using bungeecord the paper plugin will fetch this from bungeecord via pluginMessaging
+packs:
+  somePack:
+    name: "some_resourcepack.zip"
+    hash: "abcdefghijklmnopqrstuvwxyz1234567890"

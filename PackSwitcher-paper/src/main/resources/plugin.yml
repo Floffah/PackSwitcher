@@ -1,0 +1,6 @@
+name: PackSwitcher
+version: ${project.version}
+main: dev.floffah.packswitcher.PackSwitcherPaper
+api-version: 1.16
+authors: [ Floffah ]
+description: Pack switcher plugin for Paper

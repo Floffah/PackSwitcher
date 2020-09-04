@@ -1,0 +1,14 @@
+# Likely to be true. Set to false if your paper servers host their own resource packs (not a good idea)
+enableWeb: true
+webPort: 9465
+# If you don't know what you're doing, keep this as 0.0.0.0
+webIp: 0.0.0.0
+
+# If you are using bungeecord the paper plugin will fetch this from bungeecord via pluginMessaging
+packs:
+  somePack:
+    name: "some_resourcepack.zip"
+    hash: "abcdefghijklmnopqrstuvwxyz1234567890"
+
+# Packs to enable
+enablePacks: [somePack]

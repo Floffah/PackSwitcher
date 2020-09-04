@@ -1,0 +1,4 @@
+name: PackSwitcher
+version: ${project.version}
+main: dev.floffah.packswitcher.PackSwitcherBungeeCord
+description: Pack switcher plugin for BungeeCord & Waterfall
